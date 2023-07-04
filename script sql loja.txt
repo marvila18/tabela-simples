@@ -1,0 +1,24 @@
+CREATE DATABASE loja;
+
+USE loja;
+
+CREATE TABLE clientes (
+    id INT PRIMARY KEY,
+    nome VARCHAR(100),
+    email VARCHAR(100),
+    telefone VARCHAR(20),
+    endereco VARCHAR(200)
+);
+
+INSERT INTO clientes (id, nome, email, telefone, endereco)
+VALUES 
+  (1, 'João Silva', 'joao.silva@gmail.com', '(11) 98765-4321', 'Rua A, 123'),
+  (2, 'Maria Santos', 'maria.santos@gmail.com', '(11) 99999-8888', 'Avenida B, 456'),
+  (3, 'Pedro Oliveira', 'pedro.oliveira@hotmail.com', '(21) 55555-4444', 'Rua C, 789'),
+  (4, 'Ana Pereira', 'ana.pereira@hotmail.com', '(31) 12345-6789', 'Avenida D, 987'),
+  (5, 'Mariana Costa', 'mariana.costa@gmail.com', '(11) 77777-6666', 'Rua E, 654'),
+  (6, 'Lucas Oliveira', 'lucas.oliveira@gmail.com', '(21) 33333-2222', 'Avenida F, 321'),
+  (7, 'Juliana Pereira', 'juliana.pereira@hotmail.com', '(31) 55555-9999', 'Rua G, 567'),
+  (8, 'Carlos Santos', 'carlos.santos@gmail.com', '(11) 22222-3333', 'Avenida H, 432'),
+  (9, 'Larissa Lima', 'larissa.lima@hotmail.com', '(21) 77777-8888', 'Rua I, 765'),
+  (10, 'Rafaela Souza', 'rafaela.souza@gmail.com', '(31) 44444-5555', 'Avenida J, 987');

@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"loja.conexao","c":"Conexao","l":"conectaBanco()"},{"p":"loja.conexao","c":"Conexao","l":"Conexao()","u":"%3Cinit%3E()"},{"p":"loja.conexao","c":"Conexao","l":"fechaConexao(Connection)","u":"fechaConexao(java.sql.Connection)"}];updateSearchResults();
